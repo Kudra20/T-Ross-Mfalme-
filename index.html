@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title> T-ross-Mfalme</title>
+
+    <link rel="stylesheet" href="fontawesome-free-6.4.2-web/css/all.css">
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="wrapper">
+
+
+
+        <div id="mySidebar" class="sidebar">
+            <a href="javascript:void(0)" class="clossebtn" onclick="closeNav()"><i class="fa fa-x"></i></a>
+
+            <div class="wrappera">
+                <footer class="icon-bar">
+                    <h1>
+                        <a href="gallery/ppppp.html"><i class="fab fa-teamspeak"></i></a>
+                        <a class="active" href="#"><i class="fab fa-apple" style="color: rgb(11, 11, 180);"></i></a>
+                        <a href="#"><i class="fab fa-studiovinari"></i>
+                        </a>
+
+
+
+                    </h1>
+                    <div class="follower">
+                        <h3>follow me</h3>
+                        <h4>
+
+                            <a href="https://www.facebook.com/TrossMfalmeBdi" style="color: rgb(11, 44, 233);"><i
+                                    class="fab fa-facebook "></i><p>T-Ross Mfalme Bdi</p></a>
+                            <a href="https://instagram.com/trossmfalmee?igshid=NTc4MTIwNjQ2YQ=="><i
+                                    class="fab fa-instagram" style="color: rgb(206, 26, 26);"></i><p>TRossmfalmeee</p></a>
+                            <a href="#"><i class="fab fa-twitter" style="color: dodgerblue;"></i><p>T-Ross Mfalme Bdi</p></a>
+                            <a href="https://youtube.com/@t-rossmfalme4523?si=D3IpkGvfVZ6VO6za"><i
+                                    class="fab fa-youtube" style="color: red;;"></i><p>T-RossMfalme</p></a>
+                            <a href="#"><i class="fab fa-tiktok" style="color: rgb(252, 0, 0); "></i><p>T-Ross Mfalme Bdi</p></a>
+                            <a href="#"><i class="fab fa-spotify" style="color: rgb(13, 131, 13);"></i><p>T-Ross Mfalme Bdi</p></a>
+
+                        </h4>
+                    </div>
+                </footer>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+        <div class="music-player">
+            <button id="playlist">
+        <i class="fa fa-list-dots fa-2x"></i>
+      </button>
+            <button class="footer">
+                <i class="fa fa-ellipsis-v fa-2x" class="openbtn" onclick="openNav()" id="main"></i>
+
+            </button>
+
+            <div class="image">
+                <img id="song-image" src="photo/wafalme.jpg" />
+            </div>
+
+            <div class="song-details">
+
+
+                <div class="footer">
+                    <h3>
+                        <marquee direction="up">
+                            <p id="song-name"></p>
+                        </marquee>
+                        <i class="fa-regular fa-heart"></i>
+
+                        <a href=""><i class="fa-regular fa-bell"></i></a>
+                        <p id="song-artist">Culture Code</p>
+                    </h3>
+                </div>
+
+
+
+                <!--<p id="song-name ">Make Me Move</p>
+                <p id="song-artist ">Culture Code</p>-->
+
+
+                <!--
+                <div class="footer ">
+                    <h3>
+                        <i class="fa-regular fa-heart "></i>
+
+                        <a href=" "><i class="fa-regular fa-bell "></i></a>
+                </div>-->
+
+
+
+            </div>
+            <div class="player-options">
+
+                <button id="shuffle">
+          <i class="fa-solid fa-shuffle"></i>
+        </button>
+                <button class="fa fa-arrow-rotate-left"></button>
+
+                <button id="prev">
+          <i class="fa-solid fa-backward-step"></i>
+        </button>
+                <button id="play">
+          <i class="fa-solid fa-play"></i>
+        </button>
+                <button id="pause" class="hide">
+          <i class="fa-solid fa-pause"></i>
+        </button>
+                <button id="next">
+          <i class="fa-solid fa-forward-step"></i>
+        </button>
+                <button id="speed"><i class="fa fa-arrow-rotate-right"></i>
+                    </button>
+                <button id="repeat">
+          <i class="fa-solid fa-repeat"></i>
+        </button>
+
+
+            </div>
+            <audio id="audio" preload="metadata"></audio>
+            <div id="progress-bar">
+                <div id="current-progress"></div>
+            </div>
+            <div class="time-container">
+                <span id="current-time">0:00</span>
+                <span id="max-duration">0:00</span>
+            </div>
+
+            <i class="fa fa-arrows-down-to-line"></i>
+            <i class="fa fa-arrow-up-from-bracket"></i>
+            <i class="fa fa-compact-disc"></i>
+
+            <div id="playlist-container" class="hide">
+                <button id="close-button">
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+                <ul id="playlist-songs"></ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- Script -->
+    <script src="script.js "></script>
+</body>
+
+</html>
